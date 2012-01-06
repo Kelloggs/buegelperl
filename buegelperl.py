@@ -8,7 +8,7 @@ size = 29, 29
 
 def main():
     for infile in sys.argv[1:]:
-        outfile = os.path.splitext(infile)[0] + ".tiff"
+        outfile = os.path.splitext(infile)[0] + "_result.tiff"
         source = Image.open(infile)
         source = source.resize((size[0] * 3, size[1] * 3))
         result = k_means(source, 6)
