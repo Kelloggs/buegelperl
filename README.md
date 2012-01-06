@@ -6,7 +6,7 @@ I know this is stupid.
 
 ## Usage
 
-python buegelper.py [imagename]
+python buegelperl.py [imagename]
 
 The result image is a tiff file. Change the size to the size of your Buegelperlennoppenfeld. We assume a rectangular Buegelperlennoppenfeld.
  
